@@ -1,0 +1,240 @@
+body {
+    margin:0;
+}
+
+.main {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    flex: 0 0 100%;
+    height:21em;
+    flex:1 0 auto;
+    color:white;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-one {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex: 0 0 100%;
+    height:25em;
+    flex:1 0 auto;
+    flex-direction: column;
+    background-image: url(records.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+.main-two {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    flex: 0 0 100%;
+    height:19em;
+    flex:1 0 auto;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.main-three {
+    display: flex;
+    background-color: rgb(63, 62, 62);
+    flex: 0 0 100%;
+    height:17em;
+    flex:1 0 auto;
+
+}
+
+.top {
+    display: flex;
+    background-color: rgb(63, 62, 62);
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+
+.top-container {
+    display: flex;
+    height: 9em;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+}
+
+.top-box-one {
+background-color: rgb(0, 0, 0);
+width: 25em;
+height:13em;
+text-align: center;
+align-items: center;
+display: flex;
+margin-right: 10em;
+}
+
+.top-box-two {
+background-color: rgb(0, 0, 0);
+width: 25em;
+height:13em;
+justify-content: center;
+align-items: center;
+display: flex;
+}
+
+.one-title {
+background-color: transparent;
+height: 30px;
+margin-top: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: rgb(255, 255, 255);
+}
+
+.one-container {
+background-color: transparent;
+height:10em;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: 60px;
+}
+
+.one-container-text {
+    background-color: transparent;
+height:10em;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: -30px;
+color: rgb(255, 255, 255);
+font-size: 25px;
+text-decoration: black;
+}
+
+.card {
+    height: 10em;
+    width:10em;
+    background-color: transparent;
+    margin: 8px 8px 60px;
+    border: solid black;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-two {
+    height: 10em;
+    width:168px;
+    background-color: transparent;
+    margin: 8px 11px 0px;
+    text-align: center;
+    
+}
+.two-container {
+    display: flex;
+    height: 7em;
+    width:20em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.second-container {
+    margin-top: 20px;
+}
+
+.first-two-container {
+    display: flex;
+
+}
+
+.three-container{
+    background-color:rgb(34, 0, 226) ;
+    margin: auto;
+    height: 8em;
+    width:60em ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.three-text {
+    margin-left: 6em;
+    color: white;
+}
+.button {
+    flex-direction: row-reverse;
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 5px 10px;
+    background-color:rgb(34, 0, 226) ;
+    margin-left: auto;
+    margin-right: 6em;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 3em;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.logo {
+    margin-left: 5em;
+    font-size: 42px;
+    font-weight: 800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.header-links {
+    margin-right:10em;
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+img {
+    width: 20em;
+height:20em;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 25px;
+}
+
+.image {
+    width:10em;
+    height: 10em;
+    border-radius: 10%;
+}
+
+.image-two {
+    height: 16em;
+    width: 16em;
+    margin: 15em;
+}
